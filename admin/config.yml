@@ -1,19 +1,18 @@
 backend:
-  name: github
-  repo: Anthonyumoru/anthony-ai
-  branch: main
-media_folder: images
+name: github
+repo: Anthonyumoru/anthony-ai
+branch: mainmedia_folder: images
 public_folder: /images
 collections:
-    - name: posts
-    label: Posts
-    folder: posts
-    create: true
+  - name: posts
+   label: Posts
+  folder: posts
+  create: true
     slug: "{{slug}}"
-    fields:
-            - label: Title
+  fields:
+          - label: Title
         name: title
-        widget: string
-            - label: Body
+      widget: string
+          - label: Body
         name: body
-        widget: markdown
+      widget: markdown
